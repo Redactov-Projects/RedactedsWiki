@@ -4,8 +4,26 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Redacted's Wiki",
   description: "Wiki for Brick Rigs things",
+  
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    ru: {
+      label: 'Русский',
+      lang: 'ru',
+      link: '/ru/'
+    }
+  },
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    
+    search: {
+      provider: 'local'
+    },
+    
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -24,5 +42,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+
   }
 })
