@@ -4,22 +4,32 @@ layout: home
 
 hero:
   name: "Redacted's Wiki"
-  text: "Wiki for Brick Rigs things"
-  tagline: My great project tagline
+  text: "Моддинг и не только"
+  tagline: Brick Tools, Моддинг в Brick Rigs и другие статьи!
+  image:
+        light: /5.svg
+        dark: /5.svg
+        alt: br
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Про VPN и обходы блокировок
+      link: /ru/other/vpn
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Поддержать
+      link: /ru/support
+    - theme: alt
+      text: Проекты на Github
+      link: https://github.com/Redactov-Projects
 
 features:
-  - title: Feature A
+  - icon: 🛠️
+    title: Моддниг Brick Rigs
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+    link: /ru/br/modding
+    linkText: Подробнее
+  - icon: 🪐
+    title: Brick Tools & Server Library
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /ru/btsl/what-are-brick-tools-and-server-library
+    linkText: Подробнее
 ---
-
