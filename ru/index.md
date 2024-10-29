@@ -24,12 +24,12 @@ hero:
 features:
   - icon: 🛠️
     title: Моддниг Brick Rigs
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Информация и статьи по моддингу в Brick Rigs.
     link: /ru/br/modding
     linkText: Подробнее
   - icon: 🪐
     title: Brick Tools & Server Library
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Мои моды с поддержкой аддонов, добавляющие полезные инструменты в игру.
     link: /ru/btsl/what-are-brick-tools-and-server-library
     linkText: Подробнее
 ---

@@ -65,6 +65,19 @@ Deletes the actor you're looking at
 
 Prints notification on the left of the players screen.
 
+::: details Styles
+
+- default
+- highlight
+- positive
+- negative
+- neutral
+- editor_outline
+- game_logo
+- developer_logo
+
+:::
+
 ### spawnmodel (model) <Badge type="tip" text="^0.6" />
 
 Spawns the model where you're standing.

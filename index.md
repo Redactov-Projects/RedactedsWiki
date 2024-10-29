@@ -13,18 +13,20 @@ hero:
   actions:
     - theme: alt
       text: Support
-      link: /api-examples
+      link: /support
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/Redactov-Projects
+      text: Authors
+      link: /authors
 
 features:
   - icon: 🛠️
     title: Brick Rigs Modding
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
+    details: Information and articles about Brick Rigs modding.
+    link: /br/modding
+    linkText: Read More
   - icon: 🪐
     title: Brick Tools & Server Library
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /what-are-brick-tools-and-server-library
+    details: My mods with addon support, which add new useful instruments in the game.
+    link: /btsl/what-are-brick-tools-and-server-library
+    linkText: Read More
 ---

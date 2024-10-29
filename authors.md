@@ -7,8 +7,7 @@
       name: 'Pavel Redactov',
       title: 'Creator',
       links: [
-        { icon: 'github', link: 'https://github.com/Redacted00' },
-        { icon: {svg: telegramSvg}, link: 'https://t.me/red1ctedxd00' }
+        { icon: 'github', link: 'https://github.com/Redacted00' }
       ]
     }
   ]
@@ -17,4 +16,3 @@
 # Authors
 
 <VPTeamMembers size="medium" :members="members" />
-

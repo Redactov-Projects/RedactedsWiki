@@ -9,17 +9,24 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      link: '/en/',
+      link: '/',
       themeConfig: {
         nav: [
           { text: 'Brick Rigs', items:[
-            {text: 'Modding',link: '/en/br/modding'},
-            { text: 'API', link: '/en/br/api' },
-            { text: 'Other guides', link: '/en/br/guides' }
+            {text: 'Modding',link: '/br/modding'},
+            { text: 'API', link: '/br/api' },
+            { text: 'Other guides', link: '/br/guides' }
           ] },
-          { text: 'Support', link: '/en/support' },
-          { text: 'Authors', link: '/en/authors' }
-        ]
+          { text: 'Support', link: '/support' },
+          { text: 'Authors', link: '/authors' }
+        ],
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/Redactov-Projects/RedactedsWiki' }
+        ],
+        footer: {
+          message: '',
+          copyright: '© 2024 – 2025, Redactov P'
+        }
       }
     },
     ru: {
@@ -35,7 +42,15 @@ export default defineConfig({
           ] },
           { text: 'Поддержать', link: '/ru/support' },
           { text: 'Авторы', link: '/ru/authors' }
-        ]
+        ],
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/Redactov-Projects/RedactedsWiki' },
+          { icon: { svg: telegramSvg }, link: 'https://t.me/red1ctedxd00' },
+        ],
+        footer: {
+          message: '',
+          copyright: '© 2024 – 2025, Редактов П'
+        }
       }
     }
   },
@@ -49,19 +64,19 @@ export default defineConfig({
     
 
     sidebar: {
-      '/en/btsl/': [
+      '/btsl/': [
       {
         text: 'Brick Tools & Server Library',
         items: [
-          { text: 'What are Brick Tools and Server Library', link: '/en/btsl/what-are-brick-tools-and-server-library' },
+          { text: 'What are Brick Tools and Server Library', link: '/btsl/what-are-brick-tools-and-server-library' },
           {
             text: "Redacted's Server Library",
             items: [
-              { text: 'Commands', link: '/en/btsl/rsl/commands' },
-              { text: 'Getting started', link: '/en/btsl/rsl/getting-started' },
-              { text: 'Custom sounds', link: '/en/btsl/rsl/custom-sounds' },
-              { text: 'Custom meshes', link: '/en/btsl/rsl/custom-sounds' },
-              { text: 'Custom animations', link: '/en/btsl/rsl/custom-animations' },
+              { text: 'Commands', link: '/btsl/rsl/commands' },
+              { text: 'Getting started', link: '/btsl/rsl/getting-started' },
+              { text: 'Custom sounds', link: '/btsl/rsl/custom-sounds' },
+              { text: 'Custom meshes', link: '/btsl/rsl/custom-sounds' },
+              { text: 'Custom animations', link: '/btsl/rsl/custom-animations' },
     
             ]
           }
@@ -92,20 +107,12 @@ export default defineConfig({
         text: ''
       }
     ],
-    '/en/': [
+    '/': [
       {
         text: ''
       }
     ]
-    },
-    footer: {
-      message: '',
-      copyright: '© 2024 – 2025, Редактов П'
-    },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Redactov-Projects/RedactedsWiki' },
-      { icon: { svg: telegramSvg }, link: 'https://t.me/red1ctedxd00' },
-    ]
+    }
 
   }
 })
