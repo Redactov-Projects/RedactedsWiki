@@ -10,12 +10,12 @@ Now this is not possible without BRMK, which is still privately available, howev
 
 ## What is Server Library
 
-Redacted's Server Library is a my library for servers. This library needs for replication some things like actors spawn, notifications and etc. Also this library has addons system, where you can add your sounds, animations. Also Server Library has command line and own commands. 
+Redacted's Server Library is a my library for servers. This library needs for replication some things like actors spawn, notifications and etc. Also this library has addons system, where you can add your sounds, animations. Also Server Library has command line and own commands.
 
 ### How to create addon for Server Library?
 
-Yes, you can add your sounds and animations for use with Server Library! You can see guide here
+Yes, you can add your sounds and animations for use with Server Library! You can see guide [here](/btsl/rsl/getting-started).
 
 ### Where I can find commands for Server Library?
 
-You can find commands here
+You can find commands [here](/btsl/rsl/commands).
