@@ -78,18 +78,59 @@ Prints notification on the left of the players screen.
 
 :::
 
+### bind (key) (parameter) (command) <Badge type="tip" text="^0.6" />
+
+This command binds your commands to key.
+
+##### `Key` argument:
+::: details Avaliable Keys
+
+**Keyboard Key - Argument**
+- Num Key 1 - NumKey1
+- Num Key 2 - NumKey2
+- Num Key 3 - NumKey3
+- Num Key 4 - NumKey4
+- Num Key 5 - NumKey5
+- Num Key 6 - NumKey6
+- Num Key 7 - NumKey7
+- Num Key 8 - NumKey8
+- Num Key 9 - NumKey9
+
+:::
+
+##### `Parameter` argument: 
+- add - Adds new command to key bind.
+- remove - Removes command from key bind.
+- clear - Clears commands from key bind. For this parameter you don't need to write something in `command` argument.
+
+##### `Command` argument:
+Any command you need to bind.
+
+
 ### spawnmodel (model) <Badge type="tip" text="^0.6" />
 
 Spawns the model where you're standing.
+
+##### `Model` argument:
+Name of your model. For example `BP_Dumpster`.
 
 ### anim (animation) <Badge type="tip" text="^0.6" />
 
 Plays animation
 
+##### `Animation` argument:
+Name of your animation. For example `Character_Brick_Carry`.
+
 ### sound (sound) <Badge type="tip" text="^0.6" />
 
 Plays sound
 
+##### `Sound` argument:
+Name of your sound. For example `metalpipe`.
+
 ### blacklist (steam id) <Badge type="tip" text="^0.6" />
 
 Adds to blacklist player by Steam ID. Blacklisted player can't use functions of Server Library.
+
+##### `Steam ID` argument:
+Player's Steam ID.
