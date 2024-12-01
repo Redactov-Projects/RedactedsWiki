@@ -11,6 +11,9 @@ hero:
         dark: /5.svg
         alt: br
   actions:
+    - theme: brand
+      text: Install Brick Tools & Other
+      link: /mods
     - theme: alt
       text: Support
       link: /support

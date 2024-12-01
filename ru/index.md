@@ -12,8 +12,8 @@ hero:
         alt: br
   actions:
     - theme: brand
-      text: Про VPN и обходы блокировок
-      link: /ru/other/vpn
+      text: Скачать Brick Tools и не только
+      link: /ru/mods
     - theme: alt
       text: Поддержать
       link: /ru/support
