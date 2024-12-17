@@ -114,19 +114,42 @@ Spawns the model where you're standing.
 ##### `Model` argument:
 Name of your model. For example `BP_Dumpster`.
 
-### anim (animation) <Badge type="tip" text="^0.6" />
+### anim (Slot of body) (-inf) (Animation) <Badge type="tip" text="^0.6" />
 
 Plays animation
 
+##### `-inf` argument:
+**Optional** argument to make playing your animation infinitely.
+
+##### `Slot of body` argument:
+Slot of character to apply animation. You can use `UpperBody` for most animations.
+
 ##### `Animation` argument:
 Name of your animation. For example `Character_Brick_Carry`.
+::: details Bob animations list
+TODO: Need to write list of all Brick Rigs animations for Bob.
+:::
 
-### sound (sound) <Badge type="tip" text="^0.6" />
+### stopanim (Slot of body) <Badge type="tip" text="^0.6" />
+Stops playback of the animation currently playing.
+##### `Slot of body` argument:
+Slot of character to apply animation. You can use `UpperBody` for most animations.
 
-Plays sound
+### playsound (sound) <Badge type="tip" text="^0.6" />
+
+Plays sound. By defaut avaliable 'metalpipe' sound.
 
 ##### `Sound` argument:
 Name of your sound. For example `metalpipe`.
+
+### stopsound <Badge type="tip" text="^0.6" />
+
+Stops sound you're playing right now.
+
+### setvolume (Volume) <Badge type="tip" text="^0.6" />
+Sets volume of sound.
+##### `Volume` argument:
+Set volume of sound you want to play from 1 to 5
 
 ### blacklist (steam id) <Badge type="tip" text="^0.6" />
 
