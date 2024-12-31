@@ -75,13 +75,15 @@ export default defineConfig({
               { text: 'Commands', link: '/btsl/rsl/commands' },
               { text: 'Getting started', link: '/btsl/rsl/getting-started' },
               { text: 'Custom sounds', link: '/btsl/rsl/custom-sounds' },
-              { text: 'Custom meshes', link: '/btsl/rsl/custom-sounds' },
+              { text: 'Custom meshes', link: '/btsl/rsl/custom-models' },
               { text: 'Custom animations', link: '/btsl/rsl/custom-animations' },
+              { text: 'Cooking content', link: '/btsl/rsl/content-cook' },
     
             ]
           }
         ]
       }
+        
     ],
     '/ru/btsl/': [
       {
@@ -94,8 +96,9 @@ export default defineConfig({
               { text: 'Команды', link: '/ru/btsl/rsl/commands' },
               { text: 'Первые шаги', link: '/ru/btsl/rsl/getting-started' },
               { text: 'Кастомные звуки', link: '/ru/btsl/rsl/custom-sounds' },
-              { text: 'Кастомные модели', link: '/ru/btsl/rsl/custom-sounds' },
+              { text: 'Кастомные модели', link: '/ru/btsl/rsl/custom-models' },
               { text: 'Кастомные анимации', link: '/ru/btsl/rsl/custom-animations' },
+              { text: 'Приготовление контента', link: '/ru/btsl/rsl/content-cook' },
     
             ]
           }
